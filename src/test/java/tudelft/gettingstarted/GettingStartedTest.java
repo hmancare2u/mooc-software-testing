@@ -7,7 +7,7 @@ public class GettingStartedTest {
 
     @Test
     public void addFiveTo20() {
-        int result = new GettingStarted().addFive(20);
+        int result = new GettingStarted().addFive(21);
         Assertions.assertEquals(25,result);
     }
 
